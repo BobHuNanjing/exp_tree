@@ -8,4 +8,9 @@ public class LiteralNode extends Node {
         return atom;
     }
 
+
+
+    public String getNodeElement() {
+        return getAtom();
+    }
 }

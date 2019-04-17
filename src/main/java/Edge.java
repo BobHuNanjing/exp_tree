@@ -1,4 +1,4 @@
-public class Edge {
+public abstract class Edge {
     Node startNode;
     Node endNode;
 
@@ -6,4 +6,8 @@ public class Edge {
         this.startNode = startNode;
         this.endNode = endNode;
     }
+
+    public abstract String getEdgeElement();
+
+
 }

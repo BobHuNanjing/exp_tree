@@ -13,5 +13,4 @@ public class App {
         ExplanationSpace explanationSpace = new ExplanationSpace();
         explanationSpace.displayTheSpace();
     }
-
 }

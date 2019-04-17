@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.HashSet;
 
 /**
  * 解释空间
@@ -40,13 +39,13 @@ public class ExplanationSpace {
             LiteralToRuleEdge literalToRuleEdge = new LiteralToRuleEdge(literalNode, ruleNode);
             literalNode.setEdgeList(literalToRuleEdge);
             literalToRuleEdgeList.add(literalToRuleEdge);
-            ruleNode.setAnscestorNodeList(literalNode);
+            ruleNode.setAncestorNodeList(literalNode);
         }
 
         for (String posLit : r.getPositiveBody()) {
             LiteralNode literalNode = nodeInitialize(posLit);
             //正体部节点：点+边（rule-lit）
-            literalNode.setAnscestorNodeList(ruleNode);
+            literalNode.setAncestorNodeList(ruleNode);
             RuleToLiteralEdge ruleToLiteralEdge = new RuleToLiteralEdge(ruleNode, literalNode, true);
             ruleToLiteralEdgeList.add(ruleToLiteralEdge);
             ruleNode.setEdgeList(ruleToLiteralEdge);
@@ -55,14 +54,14 @@ public class ExplanationSpace {
         for (String negLit : r.getNegativeBody()) {
             LiteralNode literalNode = nodeInitialize(negLit);
             //负体部节点：点+边（rule-lit）
-            literalNode.setAnscestorNodeList(ruleNode);
+            literalNode.setAncestorNodeList(ruleNode);
             RuleToLiteralEdge ruleToLiteralEdge = new RuleToLiteralEdge(ruleNode, literalNode, false);
             ruleToLiteralEdgeList.add(ruleToLiteralEdge);
             ruleNode.setEdgeList(ruleToLiteralEdge);
         }
 
 
-}
+    }
 
     private LiteralNode nodeInitialize(String litStr) {
         LiteralNode literalNode = litNodeExist(litStr);
@@ -78,15 +77,21 @@ public class ExplanationSpace {
         for (LiteralNode literalNode : literalNodeList) {
             System.out.println("atom:" + literalNode.getAtom());
             System.out.println("all the edges:");
+
             for (Edge edge : literalNode.getEdgeList()) {
-                System.out.println("edge type:" + edge.getClass() + ", connected nodes" + edge);
+                System.out.println("edge type:" + edge.getClass().toString().replace("class ", "")
+                        + ";connected node:" + edge.endNode.getNodeElement());
             }
         }
-//        System.out.println("rule node list:");
-//        for (RuleNode ruleNode : ruleNodeList) {
-//            System.out.print("\n");
-//            ruleNode.getRule().printRule();
-//        }
+
+        System.out.println("rule node list:");
+        for (RuleNode ruleNode : ruleNodeList) {
+            System.out.println("rule:" + ruleNode.getNodeElement());
+            for (Edge edge : ruleNode.getEdgeList()) {
+                    System.out.println(edge.getEdgeElement() + ";connected node:" + edge.endNode.getNodeElement());
+                }
+
+            }
 
     }
 }
