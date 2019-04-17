@@ -4,6 +4,7 @@ import java.util.List;
 public abstract class Node {
     private List<Edge> edgeList = new ArrayList<>();
     private List<Node> ancestorNodeList = new ArrayList<>();
+    private int id;
 
     public List<Edge> getEdgeList() {
         return edgeList;
@@ -22,5 +23,14 @@ public abstract class Node {
             ancestorNodeList.add(ancestorNode);
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public abstract String getNodeElement();
+
 }

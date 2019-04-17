@@ -90,8 +90,20 @@ public class ExplanationSpace {
             for (Edge edge : ruleNode.getEdgeList()) {
                     System.out.println(edge.getEdgeElement() + ";connected node:" + edge.endNode.getNodeElement());
                 }
-
             }
 
+    }
+
+    public void setIdForEveryNode(){
+        int count = 0;
+        for (LiteralNode literalNode : literalNodeList) {
+            literalNode.setId(count);
+            count++;
+        }
+
+        for (RuleNode ruleNode : ruleNodeList) {
+            ruleNode.setId(count);
+            count++;
+        }
     }
 }
