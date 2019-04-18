@@ -18,7 +18,7 @@ public class ExplanationSpace {
 
     public LiteralNode litNodeExist(String literal) {
         for (LiteralNode literalNode : literalNodeList) {
-            if (literalNode.getAtom().equals(literal))
+            if (literalNode.getAtom().equals(literal) && literalNode.getAtom().length()!=0)
                 return literalNode;
         }
         return null;
@@ -105,5 +105,18 @@ public class ExplanationSpace {
             ruleNode.setId(count);
             count++;
         }
+    }
+
+    public void updateNodeOnEdges(){
+        for (Edge e : ruleToLiteralEdgeList) {
+            e.setSource();
+            e.setTarget();
+        }
+
+        for (Edge e : literalToRuleEdgeList) {
+            e.setSource();
+            e.setTarget();
+        }
+
     }
 }

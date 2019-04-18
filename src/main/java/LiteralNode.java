@@ -1,3 +1,5 @@
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 public class LiteralNode extends Node {
     String atom = null;
 
@@ -19,15 +21,8 @@ public class LiteralNode extends Node {
         super.setId(id);
     }
 
+    @JsonIgnore
     public String getNodeElement() {
         return getAtom();
-    }
-
-    @Override
-    public String toString() {
-        return "LiteralNode [atom="
-                + atom
-                + ", nodeid="
-                + getId();
     }
 }

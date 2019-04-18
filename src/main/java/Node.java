@@ -1,11 +1,14 @@
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Node {
     private List<Edge> edgeList = new ArrayList<>();
     private List<Node> ancestorNodeList = new ArrayList<>();
-    private int id;
+    public int id;
 
+    @JsonIgnore
     public List<Edge> getEdgeList() {
         return edgeList;
     }
@@ -14,6 +17,7 @@ public abstract class Node {
         edgeList.add(edge);
     }
 
+    @JsonIgnore
     public List<Node> getAnscestorNodeList() {
         return ancestorNodeList;
     }

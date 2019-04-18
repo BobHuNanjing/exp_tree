@@ -1,3 +1,5 @@
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 public class RuleNode extends Node{
     Rule rule;
 
@@ -13,6 +15,7 @@ public class RuleNode extends Node{
     }
 
     @Override
+    @JsonIgnore
     public String getNodeElement() {
         String ruleNodeElement = "r:" + "head:[";
         for (String headLit : rule.getHead()) {
