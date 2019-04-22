@@ -11,7 +11,11 @@ public class RuleToLiteralEdge extends Edge{
     @Override
     @JsonIgnore
     public String getEdgeElement() {
-        String edgeElement = "edge type:" + "Rule-To-Literal;" + "dependency:" + (dependency ? "+" : "-");
+        String edgeElement = (dependency ? "+" : "-");
         return edgeElement;
+    }
+
+    public boolean getDependency(){
+        return dependency;
     }
 }

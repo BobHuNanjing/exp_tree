@@ -34,27 +34,33 @@ public class ExplanationSpace {
 
     private void setNodeAndEdge(Rule r, RuleNode ruleNode) {
         for (String headLit : r.getHead()) {
+            if(headLit.length() == 0)
+                continue;
             LiteralNode literalNode = nodeInitialize(headLit);
             //头部节点：点+边（lit-rule）
             LiteralToRuleEdge literalToRuleEdge = new LiteralToRuleEdge(literalNode, ruleNode);
             literalNode.setEdgeList(literalToRuleEdge);
             literalToRuleEdgeList.add(literalToRuleEdge);
-            ruleNode.setAncestorNodeList(literalNode);
+            //ruleNode.setAncestorNodeList(literalNode);
         }
 
         for (String posLit : r.getPositiveBody()) {
+            if(posLit.length() == 0)
+                continue;
             LiteralNode literalNode = nodeInitialize(posLit);
             //正体部节点：点+边（rule-lit）
-            literalNode.setAncestorNodeList(ruleNode);
+            //literalNode.setAncestorNodeList(ruleNode);
             RuleToLiteralEdge ruleToLiteralEdge = new RuleToLiteralEdge(ruleNode, literalNode, true);
             ruleToLiteralEdgeList.add(ruleToLiteralEdge);
             ruleNode.setEdgeList(ruleToLiteralEdge);
         }
 
         for (String negLit : r.getNegativeBody()) {
+            if(negLit.length() == 0)
+                continue;
             LiteralNode literalNode = nodeInitialize(negLit);
             //负体部节点：点+边（rule-lit）
-            literalNode.setAncestorNodeList(ruleNode);
+            //literalNode.setAncestorNodeList(ruleNode);
             RuleToLiteralEdge ruleToLiteralEdge = new RuleToLiteralEdge(ruleNode, literalNode, false);
             ruleToLiteralEdgeList.add(ruleToLiteralEdge);
             ruleNode.setEdgeList(ruleToLiteralEdge);
@@ -118,5 +124,15 @@ public class ExplanationSpace {
             e.setTarget();
         }
 
+    }
+
+    public void addNodeByType(Node node) throws ClassCastException{
+        if(node instanceof LiteralNode){
+            literalNodeList.add((LiteralNode) node);
+        }
+
+        else if(node instanceof RuleNode){
+            ruleNodeList.add((RuleNode) node);
+        }
     }
 }

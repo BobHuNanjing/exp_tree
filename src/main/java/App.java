@@ -16,17 +16,10 @@ import static java.lang.Boolean.TRUE;
 public class App {
     public static void main(String[] args) {
         ExplanationSpace explanationSpace = new ExplanationSpace();
-        //explanationSpace.displayTheSpace();
         explanationSpace.setIdForEveryNode();
         explanationSpace.updateNodeOnEdges();
-        /*ObjectMapper objectMapper = new ObjectMapper();
-        dumpListIntoJson(explanationSpace.literalNodeList);
-        dumpListIntoJson(explanationSpace.ruleNodeList);
-        dumpListIntoJson(explanationSpace.ruleToLiteralEdgeList);
-        dumpListIntoJson(explanationSpace.literalToRuleEdgeList);*/
         GraphvizDraw graphvizDraw = new GraphvizDraw(explanationSpace);
         graphvizDraw.drawNode();
-        graphvizDraw.drawEdge();
         graphvizDraw.displayGraph();
 
     }

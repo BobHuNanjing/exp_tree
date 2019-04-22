@@ -5,6 +5,7 @@ public abstract class Edge {
     int source;
     int target;
 
+
     public Edge(Node startNode, Node endNode) {
         this.startNode = startNode;
         this.endNode = endNode;

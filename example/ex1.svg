@@ -1,257 +1,343 @@
-<svg width="3720pt" height="332pt"
- viewBox="0.00 0.00 3720.24 332.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 328)">
-<title>Example</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-328 3716.2427,-328 3716.2427,4 -4,4"/>
-<!-- &quot;复电&quot; -->
+<svg width="1929pt" height="412pt"
+ viewBox="0.00 0.00 1928.83 412.40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 408.4)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-408.4 1924.8322,-408.4 1924.8322,4 -4,4"/>
+<!-- head:[&quot;建议复电&quot;]\npositiveBody:[&quot;复电&quot;]\nnegativeBody:[&quot;不复电&quot;,&quot;强送&quot;] -->
 <g id="node1" class="node">
-<title>&quot;复电&quot;</title>
-<ellipse fill="none" stroke="#000000" cx="233.4175" cy="-162" rx="32.6954" ry="18"/>
-<text text-anchor="middle" x="233.4175" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;复电&quot;</text>
+<title>head:[&quot;建议复电&quot;]\npositiveBody:[&quot;复电&quot;]\nnegativeBody:[&quot;不复电&quot;,&quot;强送&quot;]</title>
+<polygon fill="none" stroke="#000000" points="549.3914,-331.6014 344.1224,-331.6014 344.1224,-272.7986 549.3914,-272.7986 549.3914,-331.6014"/>
+<text text-anchor="middle" x="446.7569" y="-314.8" font-family="Times,serif" font-size="14.00" fill="#000000">head:[&quot;建议复电&quot;]</text>
+<text text-anchor="middle" x="446.7569" y="-298" font-family="Times,serif" font-size="14.00" fill="#000000">positiveBody:[&quot;复电&quot;]</text>
+<text text-anchor="middle" x="446.7569" y="-281.2" font-family="Times,serif" font-size="14.00" fill="#000000">negativeBody:[&quot;不复电&quot;,&quot;强送&quot;]</text>
 </g>
+<!-- &quot;复电&quot; -->
 <g id="node2" class="node">
-<title></title>
-<ellipse fill="none" stroke="#000000" cx="453.4175" cy="-306" rx="27" ry="18"/>
+<title>&quot;复电&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="348.7569" cy="-202.2" rx="32.6954" ry="18"/>
+<text text-anchor="middle" x="348.7569" y="-198" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;复电&quot;</text>
 </g>
-<!-- &quot;存在天气风险&quot; -->
-<g id="node3" class="node">
-<title>&quot;存在天气风险&quot;</title>
-<ellipse fill="none" stroke="#000000" cx="680.4175" cy="-18" rx="74.9155" ry="18"/>
-<text text-anchor="middle" x="680.4175" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;存在天气风险&quot;</text>
-</g>
-<!-- &quot;位于三跨点&quot; -->
-<g id="node4" class="node">
-<title>&quot;位于三跨点&quot;</title>
-<ellipse fill="none" stroke="#000000" cx="968.4175" cy="-234" rx="73.5618" ry="18"/>
-<text text-anchor="middle" x="968.4175" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;位于三跨点&quot;</text>
-</g>
-<!-- &quot;接地电阻大于阈值电阻&quot; -->
-<g id="node5" class="node">
-<title>&quot;接地电阻大于阈值电阻&quot;</title>
-<ellipse fill="none" stroke="#000000" cx="1420.4175" cy="-234" rx="122.9654" ry="18"/>
-<text text-anchor="middle" x="1420.4175" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;接地电阻大于阈值电阻&quot;</text>
-</g>
-<!-- &quot;故障类型为站内故障&quot; -->
-<g id="node6" class="node">
-<title>&quot;故障类型为站内故障&quot;</title>
-<ellipse fill="none" stroke="#000000" cx="1894.4175" cy="-234" rx="103.2582" ry="18"/>
-<text text-anchor="middle" x="1894.4175" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;故障类型为站内故障&quot;</text>
-</g>
-<!-- &quot;线缆类型为电缆&quot; -->
-<g id="node7" class="node">
-<title>&quot;线缆类型为电缆&quot;</title>
-<ellipse fill="none" stroke="#000000" cx="2348.4175" cy="-234" rx="95.1912" ry="18"/>
-<text text-anchor="middle" x="2348.4175" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;线缆类型为电缆&quot;</text>
-</g>
-<!-- &quot;匹配到异常信息关键字&quot; -->
-<g id="node8" class="node">
-<title>&quot;匹配到异常信息关键字&quot;</title>
-<ellipse fill="none" stroke="#000000" cx="2816.4175" cy="-234" rx="122.9365" ry="18"/>
-<text text-anchor="middle" x="2816.4175" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;匹配到异常信息关键字&quot;</text>
-</g>
-<!-- &quot;存在薄弱厂站&quot; -->
-<g id="node9" class="node">
-<title>&quot;存在薄弱厂站&quot;</title>
-<ellipse fill="none" stroke="#000000" cx="3183.4175" cy="-18" rx="81.2844" ry="18"/>
-<text text-anchor="middle" x="3183.4175" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;存在薄弱厂站&quot;</text>
-</g>
-<!-- &quot;存在全停变电站&quot; -->
-<g id="node10" class="node">
-<title>&quot;存在全停变电站&quot;</title>
-<ellipse fill="none" stroke="#000000" cx="3505.4175" cy="-234" rx="77.8141" ry="18"/>
-<text text-anchor="middle" x="3505.4175" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;存在全停变电站&quot;</text>
-</g>
-<!-- r:head:[&quot;建议复电&quot;,];positiveBody:[&quot;复电&quot;,];negativeBody:[&quot;不复电&quot;,&quot;强送&quot;,]. -->
-<g id="node11" class="node">
-<title>r:head:[&quot;建议复电&quot;,];positiveBody:[&quot;复电&quot;,];negativeBody:[&quot;不复电&quot;,&quot;强送&quot;,].</title>
-<polygon fill="none" stroke="#000000" points="466.7525,-252 .0825,-252 .0825,-216 466.7525,-216 466.7525,-252"/>
-<text text-anchor="middle" x="233.4175" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">r:head:[&quot;建议复电&quot;,];positiveBody:[&quot;复电&quot;,];negativeBody:[&quot;不复电&quot;,&quot;强送&quot;,].</text>
-</g>
-<!-- r:head:[&quot;建议复电&quot;,];positiveBody:[&quot;复电&quot;,];negativeBody:[&quot;不复电&quot;,&quot;强送&quot;,].&#45;&gt;&quot;复电&quot; -->
-<g id="edge6" class="edge">
-<title>r:head:[&quot;建议复电&quot;,];positiveBody:[&quot;复电&quot;,];negativeBody:[&quot;不复电&quot;,&quot;强送&quot;,].&#45;&gt;&quot;复电&quot;</title>
-<path fill="none" stroke="#000000" d="M233.4175,-215.8314C233.4175,-208.131 233.4175,-198.9743 233.4175,-190.4166"/>
-<polygon fill="#000000" stroke="#000000" points="236.9176,-190.4132 233.4175,-180.4133 229.9176,-190.4133 236.9176,-190.4132"/>
-</g>
-<!-- r:head:[&quot;建议强送&quot;,];positiveBody:[&quot;强送&quot;,];negativeBody:[&quot;不复电&quot;,]. -->
-<g id="node12" class="node">
-<title>r:head:[&quot;建议强送&quot;,];positiveBody:[&quot;强送&quot;,];negativeBody:[&quot;不复电&quot;,].</title>
-<polygon fill="none" stroke="#000000" points="3409.9793,-252 2956.8557,-252 2956.8557,-216 3409.9793,-216 3409.9793,-252"/>
-<text text-anchor="middle" x="3183.4175" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">r:head:[&quot;建议强送&quot;,];positiveBody:[&quot;强送&quot;,];negativeBody:[&quot;不复电&quot;,].</text>
-</g>
-<!-- &quot;强送&quot; -->
-<g id="node24" class="node">
-<title>&quot;强送&quot;</title>
-<ellipse fill="none" stroke="#000000" cx="3183.4175" cy="-162" rx="47.1448" ry="18"/>
-<text text-anchor="middle" x="3183.4175" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;强送&quot;</text>
-</g>
-<!-- r:head:[&quot;建议强送&quot;,];positiveBody:[&quot;强送&quot;,];negativeBody:[&quot;不复电&quot;,].&#45;&gt;&quot;强送&quot; -->
-<g id="edge7" class="edge">
-<title>r:head:[&quot;建议强送&quot;,];positiveBody:[&quot;强送&quot;,];negativeBody:[&quot;不复电&quot;,].&#45;&gt;&quot;强送&quot;</title>
-<path fill="none" stroke="#000000" d="M3183.4175,-215.8314C3183.4175,-208.131 3183.4175,-198.9743 3183.4175,-190.4166"/>
-<polygon fill="#000000" stroke="#000000" points="3186.9176,-190.4132 3183.4175,-180.4133 3179.9176,-190.4133 3186.9176,-190.4132"/>
-</g>
-<!-- r:head:[&quot;不建议复电&quot;,];positiveBody:[&quot;不复电&quot;,];negativeBody:[,]. -->
-<g id="node13" class="node">
-<title>r:head:[&quot;不建议复电&quot;,];positiveBody:[&quot;不复电&quot;,];negativeBody:[,].</title>
-<polygon fill="none" stroke="#000000" points="876.4132,-252 484.4218,-252 484.4218,-216 876.4132,-216 876.4132,-252"/>
-<text text-anchor="middle" x="680.4175" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">r:head:[&quot;不建议复电&quot;,];positiveBody:[&quot;不复电&quot;,];negativeBody:[,].</text>
+<!-- head:[&quot;建议复电&quot;]\npositiveBody:[&quot;复电&quot;]\nnegativeBody:[&quot;不复电&quot;,&quot;强送&quot;]&#45;&gt;&quot;复电&quot; -->
+<g id="edge2" class="edge">
+<title>head:[&quot;建议复电&quot;]\npositiveBody:[&quot;复电&quot;]\nnegativeBody:[&quot;不复电&quot;,&quot;强送&quot;]&#45;&gt;&quot;复电&quot;:n</title>
+<path fill="none" stroke="#000000" d="M382.2088,-272.8685C366.7274,-261.9455 353.556,-247.8318 349.8179,-230.2958"/>
+<polygon fill="#000000" stroke="#000000" points="348.7569,-220.2 354.2775,-229.6749 349.2795,-225.1726 349.8021,-230.1452 349.8021,-230.1452 349.8021,-230.1452 349.2795,-225.1726 345.3268,-230.6156 348.7569,-220.2 348.7569,-220.2"/>
+<text text-anchor="middle" x="365.7042" y="-242.4" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
 </g>
 <!-- &quot;不复电&quot; -->
-<g id="node23" class="node">
+<g id="node22" class="node">
 <title>&quot;不复电&quot;</title>
-<ellipse fill="none" stroke="#000000" cx="680.4175" cy="-162" rx="40.7822" ry="18"/>
-<text text-anchor="middle" x="680.4175" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;不复电&quot;</text>
+<ellipse fill="none" stroke="#000000" cx="880.7569" cy="-202.2" rx="40.7822" ry="18"/>
+<text text-anchor="middle" x="880.7569" y="-198" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;不复电&quot;</text>
 </g>
-<!-- r:head:[&quot;不建议复电&quot;,];positiveBody:[&quot;不复电&quot;,];negativeBody:[,].&#45;&gt;&quot;不复电&quot; -->
-<g id="edge8" class="edge">
-<title>r:head:[&quot;不建议复电&quot;,];positiveBody:[&quot;不复电&quot;,];negativeBody:[,].&#45;&gt;&quot;不复电&quot;</title>
-<path fill="none" stroke="#000000" d="M680.4175,-215.8314C680.4175,-208.131 680.4175,-198.9743 680.4175,-190.4166"/>
-<polygon fill="#000000" stroke="#000000" points="683.9176,-190.4132 680.4175,-180.4133 676.9176,-190.4133 683.9176,-190.4132"/>
+<!-- head:[&quot;建议复电&quot;]\npositiveBody:[&quot;复电&quot;]\nnegativeBody:[&quot;不复电&quot;,&quot;强送&quot;]&#45;&gt;&quot;不复电&quot; -->
+<g id="edge3" class="edge">
+<title>head:[&quot;建议复电&quot;]\npositiveBody:[&quot;复电&quot;]\nnegativeBody:[&quot;不复电&quot;,&quot;强送&quot;]&#45;&gt;&quot;不复电&quot;:n</title>
+<path fill="none" stroke="#000000" d="M478.1273,-272.9456C494.2068,-259.8214 514.8482,-245.6423 536.0963,-238.2 552.4251,-232.4807 819.9165,-238.0388 872.0052,-225.0916"/>
+<polygon fill="#000000" stroke="#000000" points="880.7569,-220.2 874.2234,-229.0071 876.3924,-222.6395 872.0279,-225.079 872.0279,-225.079 872.0279,-225.079 876.3924,-222.6395 869.8323,-221.1509 880.7569,-220.2 880.7569,-220.2"/>
+<text text-anchor="middle" x="538.0872" y="-242.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;</text>
 </g>
-<!-- r:head:[&quot;不复电&quot;,];positiveBody:[&quot;存在天气风险&quot;,];negativeBody:[,]. -->
-<g id="node14" class="node">
-<title>r:head:[&quot;不复电&quot;,];positiveBody:[&quot;存在天气风险&quot;,];negativeBody:[,].</title>
-<polygon fill="none" stroke="#000000" points="880.8311,-108 480.0039,-108 480.0039,-72 880.8311,-72 880.8311,-108"/>
-<text text-anchor="middle" x="680.4175" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">r:head:[&quot;不复电&quot;,];positiveBody:[&quot;存在天气风险&quot;,];negativeBody:[,].</text>
+<!-- &quot;强送&quot; -->
+<g id="node23" class="node">
+<title>&quot;强送&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="446.7569" cy="-202.2" rx="47.1448" ry="18"/>
+<text text-anchor="middle" x="446.7569" y="-198" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;强送&quot;</text>
 </g>
-<!-- r:head:[&quot;不复电&quot;,];positiveBody:[&quot;存在天气风险&quot;,];negativeBody:[,].&#45;&gt;&quot;存在天气风险&quot; -->
-<g id="edge9" class="edge">
-<title>r:head:[&quot;不复电&quot;,];positiveBody:[&quot;存在天气风险&quot;,];negativeBody:[,].&#45;&gt;&quot;存在天气风险&quot;</title>
-<path fill="none" stroke="#000000" d="M680.4175,-71.8314C680.4175,-64.131 680.4175,-54.9743 680.4175,-46.4166"/>
-<polygon fill="#000000" stroke="#000000" points="683.9176,-46.4132 680.4175,-36.4133 676.9176,-46.4133 683.9176,-46.4132"/>
+<!-- head:[&quot;建议复电&quot;]\npositiveBody:[&quot;复电&quot;]\nnegativeBody:[&quot;不复电&quot;,&quot;强送&quot;]&#45;&gt;&quot;强送&quot; -->
+<g id="edge4" class="edge">
+<title>head:[&quot;建议复电&quot;]\npositiveBody:[&quot;复电&quot;]\nnegativeBody:[&quot;不复电&quot;,&quot;强送&quot;]&#45;&gt;&quot;强送&quot;:n</title>
+<path fill="none" stroke="#000000" d="M446.7569,-272.9777C446.7569,-260.2592 446.7569,-244.9263 446.7569,-230.2315"/>
+<polygon fill="#000000" stroke="#000000" points="446.7569,-220.2 451.257,-230.2 446.7569,-225.2 446.757,-230.2 446.757,-230.2 446.757,-230.2 446.7569,-225.2 442.257,-230.2 446.7569,-220.2 446.7569,-220.2"/>
+<text text-anchor="middle" x="449.0872" y="-242.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;</text>
 </g>
-<!-- r:head:[&quot;不复电&quot;,];positiveBody:[&quot;位于三跨点&quot;,];negativeBody:[,]. -->
-<g id="node15" class="node">
-<title>r:head:[&quot;不复电&quot;,];positiveBody:[&quot;位于三跨点&quot;,];negativeBody:[,].</title>
-<polygon fill="none" stroke="#000000" points="1167.6244,-324 769.2106,-324 769.2106,-288 1167.6244,-288 1167.6244,-324"/>
-<text text-anchor="middle" x="968.4175" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">r:head:[&quot;不复电&quot;,];positiveBody:[&quot;位于三跨点&quot;,];negativeBody:[,].</text>
+<!-- head:[&quot;不复电&quot;]\npositiveBody:[&quot;存在天气风险&quot;]\nnegativeBody:[] -->
+<g id="node3" class="node">
+<title>head:[&quot;不复电&quot;]\npositiveBody:[&quot;存在天气风险&quot;]\nnegativeBody:[]</title>
+<polygon fill="none" stroke="#000000" points="638.8056,-147.4014 442.7082,-147.4014 442.7082,-88.5986 638.8056,-88.5986 638.8056,-147.4014"/>
+<text text-anchor="middle" x="540.7569" y="-130.6" font-family="Times,serif" font-size="14.00" fill="#000000">head:[&quot;不复电&quot;]</text>
+<text text-anchor="middle" x="540.7569" y="-113.8" font-family="Times,serif" font-size="14.00" fill="#000000">positiveBody:[&quot;存在天气风险&quot;]</text>
+<text text-anchor="middle" x="540.7569" y="-97" font-family="Times,serif" font-size="14.00" fill="#000000">negativeBody:[]</text>
 </g>
-<!-- r:head:[&quot;不复电&quot;,];positiveBody:[&quot;位于三跨点&quot;,];negativeBody:[,].&#45;&gt;&quot;位于三跨点&quot; -->
-<g id="edge10" class="edge">
-<title>r:head:[&quot;不复电&quot;,];positiveBody:[&quot;位于三跨点&quot;,];negativeBody:[,].&#45;&gt;&quot;位于三跨点&quot;</title>
-<path fill="none" stroke="#000000" d="M968.4175,-287.8314C968.4175,-280.131 968.4175,-270.9743 968.4175,-262.4166"/>
-<polygon fill="#000000" stroke="#000000" points="971.9176,-262.4132 968.4175,-252.4133 964.9176,-262.4133 971.9176,-262.4132"/>
+<!-- &quot;存在天气风险&quot; -->
+<g id="node13" class="node">
+<title>&quot;存在天气风险&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="540.7569" cy="-18" rx="74.9155" ry="18"/>
+<text text-anchor="middle" x="540.7569" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;存在天气风险&quot;</text>
 </g>
-<!-- r:head:[&quot;不复电&quot;,];positiveBody:[&quot;接地电阻大于阈值电阻&quot;,];negativeBody:[,]. -->
-<g id="node16" class="node">
-<title>r:head:[&quot;不复电&quot;,];positiveBody:[&quot;接地电阻大于阈值电阻&quot;,];negativeBody:[,].</title>
-<polygon fill="none" stroke="#000000" points="1655.4543,-324 1185.3807,-324 1185.3807,-288 1655.4543,-288 1655.4543,-324"/>
-<text text-anchor="middle" x="1420.4175" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">r:head:[&quot;不复电&quot;,];positiveBody:[&quot;接地电阻大于阈值电阻&quot;,];negativeBody:[,].</text>
-</g>
-<!-- r:head:[&quot;不复电&quot;,];positiveBody:[&quot;接地电阻大于阈值电阻&quot;,];negativeBody:[,].&#45;&gt;&quot;接地电阻大于阈值电阻&quot; -->
+<!-- head:[&quot;不复电&quot;]\npositiveBody:[&quot;存在天气风险&quot;]\nnegativeBody:[]&#45;&gt;&quot;存在天气风险&quot; -->
 <g id="edge11" class="edge">
-<title>r:head:[&quot;不复电&quot;,];positiveBody:[&quot;接地电阻大于阈值电阻&quot;,];negativeBody:[,].&#45;&gt;&quot;接地电阻大于阈值电阻&quot;</title>
-<path fill="none" stroke="#000000" d="M1420.4175,-287.8314C1420.4175,-280.131 1420.4175,-270.9743 1420.4175,-262.4166"/>
-<polygon fill="#000000" stroke="#000000" points="1423.9176,-262.4132 1420.4175,-252.4133 1416.9176,-262.4133 1423.9176,-262.4132"/>
+<title>head:[&quot;不复电&quot;]\npositiveBody:[&quot;存在天气风险&quot;]\nnegativeBody:[]&#45;&gt;&quot;存在天气风险&quot;:n</title>
+<path fill="none" stroke="#000000" d="M540.7569,-88.7777C540.7569,-76.0592 540.7569,-60.7263 540.7569,-46.0315"/>
+<polygon fill="#000000" stroke="#000000" points="540.7569,-36 545.257,-46 540.7569,-41 540.757,-46 540.757,-46 540.757,-46 540.7569,-41 536.257,-46 540.7569,-36 540.7569,-36"/>
+<text text-anchor="middle" x="544.7042" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
 </g>
-<!-- r:head:[&quot;不复电&quot;,];positiveBody:[&quot;故障类型为站内故障&quot;,];negativeBody:[,]. -->
-<g id="node17" class="node">
-<title>r:head:[&quot;不复电&quot;,];positiveBody:[&quot;故障类型为站内故障&quot;,];negativeBody:[,].</title>
-<polygon fill="none" stroke="#000000" points="2115.1718,-324 1673.6632,-324 1673.6632,-288 2115.1718,-288 2115.1718,-324"/>
-<text text-anchor="middle" x="1894.4175" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">r:head:[&quot;不复电&quot;,];positiveBody:[&quot;故障类型为站内故障&quot;,];negativeBody:[,].</text>
+<!-- head:[&quot;不复电&quot;]\npositiveBody:[&quot;位于三跨点&quot;]\nnegativeBody:[] -->
+<g id="node4" class="node">
+<title>head:[&quot;不复电&quot;]\npositiveBody:[&quot;位于三跨点&quot;]\nnegativeBody:[]</title>
+<polygon fill="none" stroke="#000000" points="852.0986,-147.4014 657.4152,-147.4014 657.4152,-88.5986 852.0986,-88.5986 852.0986,-147.4014"/>
+<text text-anchor="middle" x="754.7569" y="-130.6" font-family="Times,serif" font-size="14.00" fill="#000000">head:[&quot;不复电&quot;]</text>
+<text text-anchor="middle" x="754.7569" y="-113.8" font-family="Times,serif" font-size="14.00" fill="#000000">positiveBody:[&quot;位于三跨点&quot;]</text>
+<text text-anchor="middle" x="754.7569" y="-97" font-family="Times,serif" font-size="14.00" fill="#000000">negativeBody:[]</text>
 </g>
-<!-- r:head:[&quot;不复电&quot;,];positiveBody:[&quot;故障类型为站内故障&quot;,];negativeBody:[,].&#45;&gt;&quot;故障类型为站内故障&quot; -->
+<!-- &quot;位于三跨点&quot; -->
+<g id="node14" class="node">
+<title>&quot;位于三跨点&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="754.7569" cy="-18" rx="73.5618" ry="18"/>
+<text text-anchor="middle" x="754.7569" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;位于三跨点&quot;</text>
+</g>
+<!-- head:[&quot;不复电&quot;]\npositiveBody:[&quot;位于三跨点&quot;]\nnegativeBody:[]&#45;&gt;&quot;位于三跨点&quot; -->
 <g id="edge12" class="edge">
-<title>r:head:[&quot;不复电&quot;,];positiveBody:[&quot;故障类型为站内故障&quot;,];negativeBody:[,].&#45;&gt;&quot;故障类型为站内故障&quot;</title>
-<path fill="none" stroke="#000000" d="M1894.4175,-287.8314C1894.4175,-280.131 1894.4175,-270.9743 1894.4175,-262.4166"/>
-<polygon fill="#000000" stroke="#000000" points="1897.9176,-262.4132 1894.4175,-252.4133 1890.9176,-262.4133 1897.9176,-262.4132"/>
+<title>head:[&quot;不复电&quot;]\npositiveBody:[&quot;位于三跨点&quot;]\nnegativeBody:[]&#45;&gt;&quot;位于三跨点&quot;:n</title>
+<path fill="none" stroke="#000000" d="M754.7569,-88.7777C754.7569,-76.0592 754.7569,-60.7263 754.7569,-46.0315"/>
+<polygon fill="#000000" stroke="#000000" points="754.7569,-36 759.257,-46 754.7569,-41 754.757,-46 754.757,-46 754.757,-46 754.7569,-41 750.257,-46 754.7569,-36 754.7569,-36"/>
+<text text-anchor="middle" x="758.7042" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
 </g>
-<!-- r:head:[&quot;不复电&quot;,];positiveBody:[&quot;线缆类型为电缆&quot;,];negativeBody:[,]. -->
-<g id="node18" class="node">
-<title>r:head:[&quot;不复电&quot;,];positiveBody:[&quot;线缆类型为电缆&quot;,];negativeBody:[,].</title>
-<polygon fill="none" stroke="#000000" points="2563.3877,-324 2133.4473,-324 2133.4473,-288 2563.3877,-288 2563.3877,-324"/>
-<text text-anchor="middle" x="2348.4175" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">r:head:[&quot;不复电&quot;,];positiveBody:[&quot;线缆类型为电缆&quot;,];negativeBody:[,].</text>
+<!-- head:[&quot;不复电&quot;]\npositiveBody:[&quot;接地电阻大于阈值电阻&quot;]\nnegativeBody:[] -->
+<g id="node5" class="node">
+<title>head:[&quot;不复电&quot;]\npositiveBody:[&quot;接地电阻大于阈值电阻&quot;]\nnegativeBody:[]</title>
+<polygon fill="none" stroke="#000000" points="1136.9286,-147.4014 870.5852,-147.4014 870.5852,-88.5986 1136.9286,-88.5986 1136.9286,-147.4014"/>
+<text text-anchor="middle" x="1003.7569" y="-130.6" font-family="Times,serif" font-size="14.00" fill="#000000">head:[&quot;不复电&quot;]</text>
+<text text-anchor="middle" x="1003.7569" y="-113.8" font-family="Times,serif" font-size="14.00" fill="#000000">positiveBody:[&quot;接地电阻大于阈值电阻&quot;]</text>
+<text text-anchor="middle" x="1003.7569" y="-97" font-family="Times,serif" font-size="14.00" fill="#000000">negativeBody:[]</text>
 </g>
-<!-- r:head:[&quot;不复电&quot;,];positiveBody:[&quot;线缆类型为电缆&quot;,];negativeBody:[,].&#45;&gt;&quot;线缆类型为电缆&quot; -->
+<!-- &quot;接地电阻大于阈值电阻&quot; -->
+<g id="node15" class="node">
+<title>&quot;接地电阻大于阈值电阻&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="1003.7569" cy="-18" rx="122.9654" ry="18"/>
+<text text-anchor="middle" x="1003.7569" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;接地电阻大于阈值电阻&quot;</text>
+</g>
+<!-- head:[&quot;不复电&quot;]\npositiveBody:[&quot;接地电阻大于阈值电阻&quot;]\nnegativeBody:[]&#45;&gt;&quot;接地电阻大于阈值电阻&quot; -->
 <g id="edge13" class="edge">
-<title>r:head:[&quot;不复电&quot;,];positiveBody:[&quot;线缆类型为电缆&quot;,];negativeBody:[,].&#45;&gt;&quot;线缆类型为电缆&quot;</title>
-<path fill="none" stroke="#000000" d="M2348.4175,-287.8314C2348.4175,-280.131 2348.4175,-270.9743 2348.4175,-262.4166"/>
-<polygon fill="#000000" stroke="#000000" points="2351.9176,-262.4132 2348.4175,-252.4133 2344.9176,-262.4133 2351.9176,-262.4132"/>
+<title>head:[&quot;不复电&quot;]\npositiveBody:[&quot;接地电阻大于阈值电阻&quot;]\nnegativeBody:[]&#45;&gt;&quot;接地电阻大于阈值电阻&quot;:n</title>
+<path fill="none" stroke="#000000" d="M1003.7569,-88.7777C1003.7569,-76.0592 1003.7569,-60.7263 1003.7569,-46.0315"/>
+<polygon fill="#000000" stroke="#000000" points="1003.7569,-36 1008.257,-46 1003.7569,-41 1003.757,-46 1003.757,-46 1003.757,-46 1003.7569,-41 999.257,-46 1003.7569,-36 1003.7569,-36"/>
+<text text-anchor="middle" x="1007.7042" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
 </g>
-<!-- r:head:[&quot;不复电&quot;,];positiveBody:[&quot;匹配到异常信息关键字&quot;,];negativeBody:[,]. -->
-<g id="node19" class="node">
-<title>r:head:[&quot;不复电&quot;,];positiveBody:[&quot;匹配到异常信息关键字&quot;,];negativeBody:[,].</title>
-<polygon fill="none" stroke="#000000" points="3051.4333,-324 2581.4017,-324 2581.4017,-288 3051.4333,-288 3051.4333,-324"/>
-<text text-anchor="middle" x="2816.4175" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">r:head:[&quot;不复电&quot;,];positiveBody:[&quot;匹配到异常信息关键字&quot;,];negativeBody:[,].</text>
+<!-- head:[&quot;不复电&quot;]\npositiveBody:[&quot;故障类型为站内故障&quot;]\nnegativeBody:[] -->
+<g id="node6" class="node">
+<title>head:[&quot;不复电&quot;]\npositiveBody:[&quot;故障类型为站内故障&quot;]\nnegativeBody:[]</title>
+<polygon fill="none" stroke="#000000" points="1392.6462,-147.4014 1154.8676,-147.4014 1154.8676,-88.5986 1392.6462,-88.5986 1392.6462,-147.4014"/>
+<text text-anchor="middle" x="1273.7569" y="-130.6" font-family="Times,serif" font-size="14.00" fill="#000000">head:[&quot;不复电&quot;]</text>
+<text text-anchor="middle" x="1273.7569" y="-113.8" font-family="Times,serif" font-size="14.00" fill="#000000">positiveBody:[&quot;故障类型为站内故障&quot;]</text>
+<text text-anchor="middle" x="1273.7569" y="-97" font-family="Times,serif" font-size="14.00" fill="#000000">negativeBody:[]</text>
 </g>
-<!-- r:head:[&quot;不复电&quot;,];positiveBody:[&quot;匹配到异常信息关键字&quot;,];negativeBody:[,].&#45;&gt;&quot;匹配到异常信息关键字&quot; -->
+<!-- &quot;故障类型为站内故障&quot; -->
+<g id="node16" class="node">
+<title>&quot;故障类型为站内故障&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="1273.7569" cy="-18" rx="103.2582" ry="18"/>
+<text text-anchor="middle" x="1273.7569" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;故障类型为站内故障&quot;</text>
+</g>
+<!-- head:[&quot;不复电&quot;]\npositiveBody:[&quot;故障类型为站内故障&quot;]\nnegativeBody:[]&#45;&gt;&quot;故障类型为站内故障&quot; -->
 <g id="edge14" class="edge">
-<title>r:head:[&quot;不复电&quot;,];positiveBody:[&quot;匹配到异常信息关键字&quot;,];negativeBody:[,].&#45;&gt;&quot;匹配到异常信息关键字&quot;</title>
-<path fill="none" stroke="#000000" d="M2816.4175,-287.8314C2816.4175,-280.131 2816.4175,-270.9743 2816.4175,-262.4166"/>
-<polygon fill="#000000" stroke="#000000" points="2819.9176,-262.4132 2816.4175,-252.4133 2812.9176,-262.4133 2819.9176,-262.4132"/>
+<title>head:[&quot;不复电&quot;]\npositiveBody:[&quot;故障类型为站内故障&quot;]\nnegativeBody:[]&#45;&gt;&quot;故障类型为站内故障&quot;:n</title>
+<path fill="none" stroke="#000000" d="M1273.7569,-88.7777C1273.7569,-76.0592 1273.7569,-60.7263 1273.7569,-46.0315"/>
+<polygon fill="#000000" stroke="#000000" points="1273.7569,-36 1278.257,-46 1273.7569,-41 1273.757,-46 1273.757,-46 1273.757,-46 1273.7569,-41 1269.257,-46 1273.7569,-36 1273.7569,-36"/>
+<text text-anchor="middle" x="1277.7042" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
 </g>
-<!-- r:head:[&quot;强送&quot;,];positiveBody:[&quot;存在薄弱厂站&quot;,];negativeBody:[,]. -->
-<g id="node20" class="node">
-<title>r:head:[&quot;强送&quot;,];positiveBody:[&quot;存在薄弱厂站&quot;,];negativeBody:[,].</title>
-<polygon fill="none" stroke="#000000" points="3392.6206,-108 2974.2144,-108 2974.2144,-72 3392.6206,-72 3392.6206,-108"/>
-<text text-anchor="middle" x="3183.4175" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">r:head:[&quot;强送&quot;,];positiveBody:[&quot;存在薄弱厂站&quot;,];negativeBody:[,].</text>
+<!-- head:[&quot;不复电&quot;]\npositiveBody:[&quot;线缆类型为电缆&quot;]\nnegativeBody:[] -->
+<g id="node7" class="node">
+<title>head:[&quot;不复电&quot;]\npositiveBody:[&quot;线缆类型为电缆&quot;]\nnegativeBody:[]</title>
+<polygon fill="none" stroke="#000000" points="1636.8619,-147.4014 1410.6519,-147.4014 1410.6519,-88.5986 1636.8619,-88.5986 1636.8619,-147.4014"/>
+<text text-anchor="middle" x="1523.7569" y="-130.6" font-family="Times,serif" font-size="14.00" fill="#000000">head:[&quot;不复电&quot;]</text>
+<text text-anchor="middle" x="1523.7569" y="-113.8" font-family="Times,serif" font-size="14.00" fill="#000000">positiveBody:[&quot;线缆类型为电缆&quot;]</text>
+<text text-anchor="middle" x="1523.7569" y="-97" font-family="Times,serif" font-size="14.00" fill="#000000">negativeBody:[]</text>
 </g>
-<!-- r:head:[&quot;强送&quot;,];positiveBody:[&quot;存在薄弱厂站&quot;,];negativeBody:[,].&#45;&gt;&quot;存在薄弱厂站&quot; -->
+<!-- &quot;线缆类型为电缆&quot; -->
+<g id="node17" class="node">
+<title>&quot;线缆类型为电缆&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="1523.7569" cy="-18" rx="95.1912" ry="18"/>
+<text text-anchor="middle" x="1523.7569" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;线缆类型为电缆&quot;</text>
+</g>
+<!-- head:[&quot;不复电&quot;]\npositiveBody:[&quot;线缆类型为电缆&quot;]\nnegativeBody:[]&#45;&gt;&quot;线缆类型为电缆&quot; -->
 <g id="edge15" class="edge">
-<title>r:head:[&quot;强送&quot;,];positiveBody:[&quot;存在薄弱厂站&quot;,];negativeBody:[,].&#45;&gt;&quot;存在薄弱厂站&quot;</title>
-<path fill="none" stroke="#000000" d="M3183.4175,-71.8314C3183.4175,-64.131 3183.4175,-54.9743 3183.4175,-46.4166"/>
-<polygon fill="#000000" stroke="#000000" points="3186.9176,-46.4132 3183.4175,-36.4133 3179.9176,-46.4133 3186.9176,-46.4132"/>
+<title>head:[&quot;不复电&quot;]\npositiveBody:[&quot;线缆类型为电缆&quot;]\nnegativeBody:[]&#45;&gt;&quot;线缆类型为电缆&quot;:n</title>
+<path fill="none" stroke="#000000" d="M1523.7569,-88.7777C1523.7569,-76.0592 1523.7569,-60.7263 1523.7569,-46.0315"/>
+<polygon fill="#000000" stroke="#000000" points="1523.7569,-36 1528.257,-46 1523.7569,-41 1523.757,-46 1523.757,-46 1523.757,-46 1523.7569,-41 1519.257,-46 1523.7569,-36 1523.7569,-36"/>
+<text text-anchor="middle" x="1527.7042" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
 </g>
-<!-- r:head:[&quot;强送&quot;,];positiveBody:[&quot;存在全停变电站&quot;,];negativeBody:[,]. -->
-<g id="node21" class="node">
-<title>r:head:[&quot;强送&quot;,];positiveBody:[&quot;存在全停变电站&quot;,];negativeBody:[,].</title>
-<polygon fill="none" stroke="#000000" points="3712.068,-324 3298.767,-324 3298.767,-288 3712.068,-288 3712.068,-324"/>
-<text text-anchor="middle" x="3505.4175" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">r:head:[&quot;强送&quot;,];positiveBody:[&quot;存在全停变电站&quot;,];negativeBody:[,].</text>
+<!-- head:[&quot;不复电&quot;]\npositiveBody:[&quot;匹配到异常信息关键字&quot;]\nnegativeBody:[] -->
+<g id="node8" class="node">
+<title>head:[&quot;不复电&quot;]\npositiveBody:[&quot;匹配到异常信息关键字&quot;]\nnegativeBody:[]</title>
+<polygon fill="none" stroke="#000000" points="1920.9075,-147.4014 1654.6063,-147.4014 1654.6063,-88.5986 1920.9075,-88.5986 1920.9075,-147.4014"/>
+<text text-anchor="middle" x="1787.7569" y="-130.6" font-family="Times,serif" font-size="14.00" fill="#000000">head:[&quot;不复电&quot;]</text>
+<text text-anchor="middle" x="1787.7569" y="-113.8" font-family="Times,serif" font-size="14.00" fill="#000000">positiveBody:[&quot;匹配到异常信息关键字&quot;]</text>
+<text text-anchor="middle" x="1787.7569" y="-97" font-family="Times,serif" font-size="14.00" fill="#000000">negativeBody:[]</text>
 </g>
-<!-- r:head:[&quot;强送&quot;,];positiveBody:[&quot;存在全停变电站&quot;,];negativeBody:[,].&#45;&gt;&quot;存在全停变电站&quot; -->
+<!-- &quot;匹配到异常信息关键字&quot; -->
+<g id="node18" class="node">
+<title>&quot;匹配到异常信息关键字&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="1787.7569" cy="-18" rx="122.9365" ry="18"/>
+<text text-anchor="middle" x="1787.7569" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;匹配到异常信息关键字&quot;</text>
+</g>
+<!-- head:[&quot;不复电&quot;]\npositiveBody:[&quot;匹配到异常信息关键字&quot;]\nnegativeBody:[]&#45;&gt;&quot;匹配到异常信息关键字&quot; -->
 <g id="edge16" class="edge">
-<title>r:head:[&quot;强送&quot;,];positiveBody:[&quot;存在全停变电站&quot;,];negativeBody:[,].&#45;&gt;&quot;存在全停变电站&quot;</title>
-<path fill="none" stroke="#000000" d="M3505.4175,-287.8314C3505.4175,-280.131 3505.4175,-270.9743 3505.4175,-262.4166"/>
-<polygon fill="#000000" stroke="#000000" points="3508.9176,-262.4132 3505.4175,-252.4133 3501.9176,-262.4133 3508.9176,-262.4132"/>
+<title>head:[&quot;不复电&quot;]\npositiveBody:[&quot;匹配到异常信息关键字&quot;]\nnegativeBody:[]&#45;&gt;&quot;匹配到异常信息关键字&quot;:n</title>
+<path fill="none" stroke="#000000" d="M1787.7569,-88.7777C1787.7569,-76.0592 1787.7569,-60.7263 1787.7569,-46.0315"/>
+<polygon fill="#000000" stroke="#000000" points="1787.7569,-36 1792.257,-46 1787.7569,-41 1787.757,-46 1787.757,-46 1787.757,-46 1787.7569,-41 1783.257,-46 1787.7569,-36 1787.7569,-36"/>
+<text text-anchor="middle" x="1791.7042" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
+</g>
+<!-- head:[&quot;强送&quot;]\npositiveBody:[&quot;存在薄弱厂站&quot;]\nnegativeBody:[] -->
+<g id="node9" class="node">
+<title>head:[&quot;强送&quot;]\npositiveBody:[&quot;存在薄弱厂站&quot;]\nnegativeBody:[]</title>
+<polygon fill="none" stroke="#000000" points="205.2713,-147.4014 .2425,-147.4014 .2425,-88.5986 205.2713,-88.5986 205.2713,-147.4014"/>
+<text text-anchor="middle" x="102.7569" y="-130.6" font-family="Times,serif" font-size="14.00" fill="#000000">head:[&quot;强送&quot;]</text>
+<text text-anchor="middle" x="102.7569" y="-113.8" font-family="Times,serif" font-size="14.00" fill="#000000">positiveBody:[&quot;存在薄弱厂站&quot;]</text>
+<text text-anchor="middle" x="102.7569" y="-97" font-family="Times,serif" font-size="14.00" fill="#000000">negativeBody:[]</text>
+</g>
+<!-- &quot;存在薄弱厂站&quot; -->
+<g id="node19" class="node">
+<title>&quot;存在薄弱厂站&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="102.7569" cy="-18" rx="81.2844" ry="18"/>
+<text text-anchor="middle" x="102.7569" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;存在薄弱厂站&quot;</text>
+</g>
+<!-- head:[&quot;强送&quot;]\npositiveBody:[&quot;存在薄弱厂站&quot;]\nnegativeBody:[]&#45;&gt;&quot;存在薄弱厂站&quot; -->
+<g id="edge19" class="edge">
+<title>head:[&quot;强送&quot;]\npositiveBody:[&quot;存在薄弱厂站&quot;]\nnegativeBody:[]&#45;&gt;&quot;存在薄弱厂站&quot;:n</title>
+<path fill="none" stroke="#000000" d="M102.7569,-88.7777C102.7569,-76.0592 102.7569,-60.7263 102.7569,-46.0315"/>
+<polygon fill="#000000" stroke="#000000" points="102.7569,-36 107.257,-46 102.7569,-41 102.757,-46 102.757,-46 102.757,-46 102.7569,-41 98.257,-46 102.7569,-36 102.7569,-36"/>
+<text text-anchor="middle" x="106.7042" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
+</g>
+<!-- head:[&quot;强送&quot;]\npositiveBody:[&quot;存在全停变电站&quot;]\nnegativeBody:[] -->
+<g id="node10" class="node">
+<title>head:[&quot;强送&quot;]\npositiveBody:[&quot;存在全停变电站&quot;]\nnegativeBody:[]</title>
+<polygon fill="none" stroke="#000000" points="424.2186,-147.4014 223.2952,-147.4014 223.2952,-88.5986 424.2186,-88.5986 424.2186,-147.4014"/>
+<text text-anchor="middle" x="323.7569" y="-130.6" font-family="Times,serif" font-size="14.00" fill="#000000">head:[&quot;强送&quot;]</text>
+<text text-anchor="middle" x="323.7569" y="-113.8" font-family="Times,serif" font-size="14.00" fill="#000000">positiveBody:[&quot;存在全停变电站&quot;]</text>
+<text text-anchor="middle" x="323.7569" y="-97" font-family="Times,serif" font-size="14.00" fill="#000000">negativeBody:[]</text>
+</g>
+<!-- &quot;存在全停变电站&quot; -->
+<g id="node20" class="node">
+<title>&quot;存在全停变电站&quot;</title>
+<ellipse fill="none" stroke="#000000" cx="323.7569" cy="-18" rx="77.8141" ry="18"/>
+<text text-anchor="middle" x="323.7569" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;存在全停变电站&quot;</text>
+</g>
+<!-- head:[&quot;强送&quot;]\npositiveBody:[&quot;存在全停变电站&quot;]\nnegativeBody:[]&#45;&gt;&quot;存在全停变电站&quot; -->
+<g id="edge20" class="edge">
+<title>head:[&quot;强送&quot;]\npositiveBody:[&quot;存在全停变电站&quot;]\nnegativeBody:[]&#45;&gt;&quot;存在全停变电站&quot;:n</title>
+<path fill="none" stroke="#000000" d="M323.7569,-88.7777C323.7569,-76.0592 323.7569,-60.7263 323.7569,-46.0315"/>
+<polygon fill="#000000" stroke="#000000" points="323.7569,-36 328.257,-46 323.7569,-41 323.757,-46 323.757,-46 323.757,-46 323.7569,-41 319.257,-46 323.7569,-36 323.7569,-36"/>
+<text text-anchor="middle" x="327.7042" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
+</g>
+<!-- head:[&quot;建议强送&quot;]\npositiveBody:[&quot;强送&quot;]\nnegativeBody:[&quot;不复电&quot;] -->
+<g id="node11" class="node">
+<title>head:[&quot;建议强送&quot;]\npositiveBody:[&quot;强送&quot;]\nnegativeBody:[&quot;不复电&quot;]</title>
+<polygon fill="none" stroke="#000000" points="767.8787,-331.6014 611.6351,-331.6014 611.6351,-272.7986 767.8787,-272.7986 767.8787,-331.6014"/>
+<text text-anchor="middle" x="689.7569" y="-314.8" font-family="Times,serif" font-size="14.00" fill="#000000">head:[&quot;建议强送&quot;]</text>
+<text text-anchor="middle" x="689.7569" y="-298" font-family="Times,serif" font-size="14.00" fill="#000000">positiveBody:[&quot;强送&quot;]</text>
+<text text-anchor="middle" x="689.7569" y="-281.2" font-family="Times,serif" font-size="14.00" fill="#000000">negativeBody:[&quot;不复电&quot;]</text>
+</g>
+<!-- head:[&quot;建议强送&quot;]\npositiveBody:[&quot;强送&quot;]\nnegativeBody:[&quot;不复电&quot;]&#45;&gt;&quot;不复电&quot; -->
+<g id="edge23" class="edge">
+<title>head:[&quot;建议强送&quot;]\npositiveBody:[&quot;强送&quot;]\nnegativeBody:[&quot;不复电&quot;]&#45;&gt;&quot;不复电&quot;:n</title>
+<path fill="none" stroke="#000000" d="M767.995,-276.1112C810.8521,-260.8627 858.5069,-242.0293 874.8707,-228.5589"/>
+<polygon fill="#000000" stroke="#000000" points="880.7569,-220.2 878.6786,-230.9672 877.8781,-224.2881 874.9993,-228.3762 874.9993,-228.3762 874.9993,-228.3762 877.8781,-224.2881 871.32,-225.7853 880.7569,-220.2 880.7569,-220.2"/>
+<text text-anchor="middle" x="859.0872" y="-242.4" font-family="Times,serif" font-size="14.00" fill="#000000">&#45;</text>
+</g>
+<!-- head:[&quot;建议强送&quot;]\npositiveBody:[&quot;强送&quot;]\nnegativeBody:[&quot;不复电&quot;]&#45;&gt;&quot;强送&quot; -->
+<g id="edge22" class="edge">
+<title>head:[&quot;建议强送&quot;]\npositiveBody:[&quot;强送&quot;]\nnegativeBody:[&quot;不复电&quot;]&#45;&gt;&quot;强送&quot;:n</title>
+<path fill="none" stroke="#000000" d="M629.1865,-272.8841C602.2878,-260.7785 569.9416,-247.4458 539.7569,-238.2 523.0891,-233.0945 470.2488,-238.5368 452.5773,-228.6036"/>
+<polygon fill="#000000" stroke="#000000" points="446.7569,-220.2 456.1501,-225.8585 449.6038,-224.3104 452.4507,-228.4208 452.4507,-228.4208 452.4507,-228.4208 449.6038,-224.3104 448.7514,-230.983 446.7569,-220.2 446.7569,-220.2"/>
+<text text-anchor="middle" x="589.7042" y="-242.4" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
+</g>
+<!-- head:[&quot;不建议复电&quot;]\npositiveBody:[&quot;不复电&quot;]\nnegativeBody:[] -->
+<g id="node12" class="node">
+<title>head:[&quot;不建议复电&quot;]\npositiveBody:[&quot;不复电&quot;]\nnegativeBody:[]</title>
+<polygon fill="none" stroke="#000000" points="954.0548,-331.6014 807.459,-331.6014 807.459,-272.7986 954.0548,-272.7986 954.0548,-331.6014"/>
+<text text-anchor="middle" x="880.7569" y="-314.8" font-family="Times,serif" font-size="14.00" fill="#000000">head:[&quot;不建议复电&quot;]</text>
+<text text-anchor="middle" x="880.7569" y="-298" font-family="Times,serif" font-size="14.00" fill="#000000">positiveBody:[&quot;不复电&quot;]</text>
+<text text-anchor="middle" x="880.7569" y="-281.2" font-family="Times,serif" font-size="14.00" fill="#000000">negativeBody:[]</text>
+</g>
+<!-- head:[&quot;不建议复电&quot;]\npositiveBody:[&quot;不复电&quot;]\nnegativeBody:[]&#45;&gt;&quot;不复电&quot; -->
+<g id="edge25" class="edge">
+<title>head:[&quot;不建议复电&quot;]\npositiveBody:[&quot;不复电&quot;]\nnegativeBody:[]&#45;&gt;&quot;不复电&quot;:n</title>
+<path fill="none" stroke="#000000" d="M880.7569,-272.9777C880.7569,-260.2592 880.7569,-244.9263 880.7569,-230.2315"/>
+<polygon fill="#000000" stroke="#000000" points="880.7569,-220.2 885.257,-230.2 880.7569,-225.2 880.757,-230.2 880.757,-230.2 880.757,-230.2 880.7569,-225.2 876.257,-230.2 880.7569,-220.2 880.7569,-220.2"/>
+<text text-anchor="middle" x="884.7042" y="-242.4" font-family="Times,serif" font-size="14.00" fill="#000000">+</text>
 </g>
 <!-- &quot;建议复电&quot; -->
-<g id="node22" class="node">
+<g id="node21" class="node">
 <title>&quot;建议复电&quot;</title>
-<ellipse fill="none" stroke="#000000" cx="233.4175" cy="-306" rx="60.5269" ry="18"/>
-<text text-anchor="middle" x="233.4175" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;建议复电&quot;</text>
+<ellipse fill="none" stroke="#000000" cx="446.7569" cy="-386.4" rx="60.5269" ry="18"/>
+<text text-anchor="middle" x="446.7569" y="-382.2" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;建议复电&quot;</text>
 </g>
-<!-- &quot;建议复电&quot;&#45;&gt;r:head:[&quot;建议复电&quot;,];positiveBody:[&quot;复电&quot;,];negativeBody:[&quot;不复电&quot;,&quot;强送&quot;,]. -->
+<!-- &quot;建议复电&quot;&#45;&gt;head:[&quot;建议复电&quot;]\npositiveBody:[&quot;复电&quot;]\nnegativeBody:[&quot;不复电&quot;,&quot;强送&quot;] -->
 <g id="edge1" class="edge">
-<title>&quot;建议复电&quot;&#45;&gt;r:head:[&quot;建议复电&quot;,];positiveBody:[&quot;复电&quot;,];negativeBody:[&quot;不复电&quot;,&quot;强送&quot;,].</title>
-<path fill="none" stroke="#000000" d="M233.4175,-287.8314C233.4175,-280.131 233.4175,-270.9743 233.4175,-262.4166"/>
-<polygon fill="#000000" stroke="#000000" points="236.9176,-262.4132 233.4175,-252.4133 229.9176,-262.4133 236.9176,-262.4132"/>
+<title>&quot;建议复电&quot;&#45;&gt;head:[&quot;建议复电&quot;]\npositiveBody:[&quot;复电&quot;]\nnegativeBody:[&quot;不复电&quot;,&quot;强送&quot;]:n</title>
+<path fill="none" stroke="#000000" d="M446.7569,-368C446.7569,-360.1177 446.7569,-350.5815 446.7569,-341.2133"/>
+<polygon fill="#000000" stroke="#000000" points="446.7569,-331.2 451.257,-341.2 446.7569,-336.2 446.757,-341.2 446.757,-341.2 446.757,-341.2 446.7569,-336.2 442.257,-341.2 446.7569,-331.2 446.7569,-331.2"/>
 </g>
-<!-- &quot;不复电&quot;&#45;&gt;r:head:[&quot;不复电&quot;,];positiveBody:[&quot;存在天气风险&quot;,];negativeBody:[,]. -->
-<g id="edge2" class="edge">
-<title>&quot;不复电&quot;&#45;&gt;r:head:[&quot;不复电&quot;,];positiveBody:[&quot;存在天气风险&quot;,];negativeBody:[,].</title>
-<path fill="none" stroke="#000000" d="M680.4175,-143.8314C680.4175,-136.131 680.4175,-126.9743 680.4175,-118.4166"/>
-<polygon fill="#000000" stroke="#000000" points="683.9176,-118.4132 680.4175,-108.4133 676.9176,-118.4133 683.9176,-118.4132"/>
+<!-- &quot;不复电&quot;&#45;&gt;head:[&quot;不复电&quot;]\npositiveBody:[&quot;存在天气风险&quot;]\nnegativeBody:[] -->
+<g id="edge5" class="edge">
+<title>&quot;不复电&quot;&#45;&gt;head:[&quot;不复电&quot;]\npositiveBody:[&quot;存在天气风险&quot;]\nnegativeBody:[]:n</title>
+<path fill="none" stroke="#000000" d="M840.4193,-199.8122C759.152,-194.5145 580.5544,-180.2438 546.4471,-155.4292"/>
+<polygon fill="#000000" stroke="#000000" points="540.7569,-147 550.0817,-152.7705 543.5544,-151.1441 546.352,-155.2883 546.352,-155.2883 546.352,-155.2883 543.5544,-151.1441 542.6223,-157.8061 540.7569,-147 540.7569,-147"/>
 </g>
-<!-- &quot;强送&quot;&#45;&gt;r:head:[&quot;强送&quot;,];positiveBody:[&quot;存在薄弱厂站&quot;,];negativeBody:[,]. -->
-<g id="edge3" class="edge">
-<title>&quot;强送&quot;&#45;&gt;r:head:[&quot;强送&quot;,];positiveBody:[&quot;存在薄弱厂站&quot;,];negativeBody:[,].</title>
-<path fill="none" stroke="#000000" d="M3183.4175,-143.8314C3183.4175,-136.131 3183.4175,-126.9743 3183.4175,-118.4166"/>
-<polygon fill="#000000" stroke="#000000" points="3186.9176,-118.4132 3183.4175,-108.4133 3179.9176,-118.4133 3186.9176,-118.4132"/>
+<!-- &quot;不复电&quot;&#45;&gt;head:[&quot;不复电&quot;]\npositiveBody:[&quot;位于三跨点&quot;]\nnegativeBody:[] -->
+<g id="edge6" class="edge">
+<title>&quot;不复电&quot;&#45;&gt;head:[&quot;不复电&quot;]\npositiveBody:[&quot;位于三跨点&quot;]\nnegativeBody:[]:n</title>
+<path fill="none" stroke="#000000" d="M844.6504,-193.7912C813.5261,-185.6424 771.6209,-172.2299 758.7085,-156.5041"/>
+<polygon fill="#000000" stroke="#000000" points="754.7569,-147 762.7513,-154.506 756.6765,-151.6168 758.5962,-156.2337 758.5962,-156.2337 758.5962,-156.2337 756.6765,-151.6168 754.441,-157.9613 754.7569,-147 754.7569,-147"/>
+</g>
+<!-- &quot;不复电&quot;&#45;&gt;head:[&quot;不复电&quot;]\npositiveBody:[&quot;接地电阻大于阈值电阻&quot;]\nnegativeBody:[] -->
+<g id="edge7" class="edge">
+<title>&quot;不复电&quot;&#45;&gt;head:[&quot;不复电&quot;]\npositiveBody:[&quot;接地电阻大于阈值电阻&quot;]\nnegativeBody:[]:n</title>
+<path fill="none" stroke="#000000" d="M916.6642,-193.4636C947.0131,-185.18 987.4821,-171.7299 999.9441,-156.2939"/>
+<polygon fill="#000000" stroke="#000000" points="1003.7569,-147 1004.1246,-157.9597 1001.8591,-151.6259 999.9613,-156.2517 999.9613,-156.2517 999.9613,-156.2517 1001.8591,-151.6259 995.798,-154.5437 1003.7569,-147 1003.7569,-147"/>
+</g>
+<!-- &quot;不复电&quot;&#45;&gt;head:[&quot;不复电&quot;]\npositiveBody:[&quot;故障类型为站内故障&quot;]\nnegativeBody:[] -->
+<g id="edge8" class="edge">
+<title>&quot;不复电&quot;&#45;&gt;head:[&quot;不复电&quot;]\npositiveBody:[&quot;故障类型为站内故障&quot;]\nnegativeBody:[]:n</title>
+<path fill="none" stroke="#000000" d="M921.3346,-200.7048C1013.1164,-196.8304 1231.562,-184.6704 1268.4296,-155.642"/>
+<polygon fill="#000000" stroke="#000000" points="1273.7569,-147 1272.3399,-157.874 1271.1331,-151.2563 1268.5093,-155.5125 1268.5093,-155.5125 1268.5093,-155.5125 1271.1331,-151.2563 1264.6787,-153.1511 1273.7569,-147 1273.7569,-147"/>
+</g>
+<!-- &quot;不复电&quot;&#45;&gt;head:[&quot;不复电&quot;]\npositiveBody:[&quot;线缆类型为电缆&quot;]\nnegativeBody:[] -->
+<g id="edge9" class="edge">
+<title>&quot;不复电&quot;&#45;&gt;head:[&quot;不复电&quot;]\npositiveBody:[&quot;线缆类型为电缆&quot;]\nnegativeBody:[]:n</title>
+<path fill="none" stroke="#000000" d="M921.4672,-200.8459C1052.0453,-196.2579 1455.3892,-180.0997 1516.0784,-153.7302"/>
+<polygon fill="#000000" stroke="#000000" points="1523.7569,-147 1519.2029,-156.9756 1519.9968,-150.2957 1516.2367,-153.5915 1516.2367,-153.5915 1516.2367,-153.5915 1519.9968,-150.2957 1513.2706,-150.2074 1523.7569,-147 1523.7569,-147"/>
+</g>
+<!-- &quot;不复电&quot;&#45;&gt;head:[&quot;不复电&quot;]\npositiveBody:[&quot;匹配到异常信息关键字&quot;]\nnegativeBody:[] -->
+<g id="edge10" class="edge">
+<title>&quot;不复电&quot;&#45;&gt;head:[&quot;不复电&quot;]\npositiveBody:[&quot;匹配到异常信息关键字&quot;]\nnegativeBody:[]:n</title>
+<path fill="none" stroke="#000000" d="M921.4908,-201.8824C1087.6364,-200.3399 1708.6856,-192.0784 1780.8944,-154.3856"/>
+<polygon fill="#000000" stroke="#000000" points="1787.7569,-147 1784.2466,-157.3889 1784.3534,-150.6629 1780.95,-154.3258 1780.95,-154.3258 1780.95,-154.3258 1784.3534,-150.6629 1777.6534,-151.2627 1787.7569,-147 1787.7569,-147"/>
+</g>
+<!-- &quot;强送&quot;&#45;&gt;head:[&quot;强送&quot;]\npositiveBody:[&quot;存在薄弱厂站&quot;]\nnegativeBody:[] -->
+<g id="edge17" class="edge">
+<title>&quot;强送&quot;&#45;&gt;head:[&quot;强送&quot;]\npositiveBody:[&quot;存在薄弱厂站&quot;]\nnegativeBody:[]:n</title>
+<path fill="none" stroke="#000000" d="M412.0769,-189.969C405.0818,-187.8099 397.7335,-185.7581 390.7569,-184.2 362.219,-177.8266 148.8748,-178.9526 109.1236,-155.2045"/>
+<polygon fill="#000000" stroke="#000000" points="102.7569,-147 112.4427,-152.1416 105.8222,-150.9502 108.8876,-154.9004 108.8876,-154.9004 108.8876,-154.9004 105.8222,-150.9502 105.3324,-157.6592 102.7569,-147 102.7569,-147"/>
+</g>
+<!-- &quot;强送&quot;&#45;&gt;head:[&quot;强送&quot;]\npositiveBody:[&quot;存在全停变电站&quot;]\nnegativeBody:[] -->
+<g id="edge18" class="edge">
+<title>&quot;强送&quot;&#45;&gt;head:[&quot;强送&quot;]\npositiveBody:[&quot;存在全停变电站&quot;]\nnegativeBody:[]:n</title>
+<path fill="none" stroke="#000000" d="M411.51,-190.0127C383.1145,-179.782 345.5267,-165.1947 330.4408,-154.6845"/>
+<polygon fill="#000000" stroke="#000000" points="323.7569,-147 333.7151,-151.5919 327.0383,-150.7726 330.3197,-154.5452 330.3197,-154.5452 330.3197,-154.5452 327.0383,-150.7726 326.9244,-157.4985 323.7569,-147 323.7569,-147"/>
 </g>
 <!-- &quot;建议强送&quot; -->
-<g id="node25" class="node">
+<g id="node24" class="node">
 <title>&quot;建议强送&quot;</title>
-<ellipse fill="none" stroke="#000000" cx="3183.4175" cy="-306" rx="75.4764" ry="18"/>
-<text text-anchor="middle" x="3183.4175" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;建议强送&quot;</text>
+<ellipse fill="none" stroke="#000000" cx="689.7569" cy="-386.4" rx="75.4764" ry="18"/>
+<text text-anchor="middle" x="689.7569" y="-382.2" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;建议强送&quot;</text>
 </g>
-<!-- &quot;建议强送&quot;&#45;&gt;r:head:[&quot;建议强送&quot;,];positiveBody:[&quot;强送&quot;,];negativeBody:[&quot;不复电&quot;,]. -->
-<g id="edge4" class="edge">
-<title>&quot;建议强送&quot;&#45;&gt;r:head:[&quot;建议强送&quot;,];positiveBody:[&quot;强送&quot;,];negativeBody:[&quot;不复电&quot;,].</title>
-<path fill="none" stroke="#000000" d="M3183.4175,-287.8314C3183.4175,-280.131 3183.4175,-270.9743 3183.4175,-262.4166"/>
-<polygon fill="#000000" stroke="#000000" points="3186.9176,-262.4132 3183.4175,-252.4133 3179.9176,-262.4133 3186.9176,-262.4132"/>
+<!-- &quot;建议强送&quot;&#45;&gt;head:[&quot;建议强送&quot;]\npositiveBody:[&quot;强送&quot;]\nnegativeBody:[&quot;不复电&quot;] -->
+<g id="edge21" class="edge">
+<title>&quot;建议强送&quot;&#45;&gt;head:[&quot;建议强送&quot;]\npositiveBody:[&quot;强送&quot;]\nnegativeBody:[&quot;不复电&quot;]:n</title>
+<path fill="none" stroke="#000000" d="M689.7569,-368C689.7569,-360.1177 689.7569,-350.5815 689.7569,-341.2133"/>
+<polygon fill="#000000" stroke="#000000" points="689.7569,-331.2 694.257,-341.2 689.7569,-336.2 689.757,-341.2 689.757,-341.2 689.757,-341.2 689.7569,-336.2 685.257,-341.2 689.7569,-331.2 689.7569,-331.2"/>
 </g>
 <!-- &quot;不建议复电&quot; -->
-<g id="node26" class="node">
+<g id="node25" class="node">
 <title>&quot;不建议复电&quot;</title>
-<ellipse fill="none" stroke="#000000" cx="680.4175" cy="-306" rx="68.6131" ry="18"/>
-<text text-anchor="middle" x="680.4175" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;不建议复电&quot;</text>
+<ellipse fill="none" stroke="#000000" cx="880.7569" cy="-386.4" rx="68.6131" ry="18"/>
+<text text-anchor="middle" x="880.7569" y="-382.2" font-family="Times,serif" font-size="14.00" fill="#000000">&quot;不建议复电&quot;</text>
 </g>
-<!-- &quot;不建议复电&quot;&#45;&gt;r:head:[&quot;不建议复电&quot;,];positiveBody:[&quot;不复电&quot;,];negativeBody:[,]. -->
-<g id="edge5" class="edge">
-<title>&quot;不建议复电&quot;&#45;&gt;r:head:[&quot;不建议复电&quot;,];positiveBody:[&quot;不复电&quot;,];negativeBody:[,].</title>
-<path fill="none" stroke="#000000" d="M680.4175,-287.8314C680.4175,-280.131 680.4175,-270.9743 680.4175,-262.4166"/>
-<polygon fill="#000000" stroke="#000000" points="683.9176,-262.4132 680.4175,-252.4133 676.9176,-262.4133 683.9176,-262.4132"/>
+<!-- &quot;不建议复电&quot;&#45;&gt;head:[&quot;不建议复电&quot;]\npositiveBody:[&quot;不复电&quot;]\nnegativeBody:[] -->
+<g id="edge24" class="edge">
+<title>&quot;不建议复电&quot;&#45;&gt;head:[&quot;不建议复电&quot;]\npositiveBody:[&quot;不复电&quot;]\nnegativeBody:[]:n</title>
+<path fill="none" stroke="#000000" d="M880.7569,-368C880.7569,-360.1177 880.7569,-350.5815 880.7569,-341.2133"/>
+<polygon fill="#000000" stroke="#000000" points="880.7569,-331.2 885.257,-341.2 880.7569,-336.2 880.757,-341.2 880.757,-341.2 880.757,-341.2 880.7569,-336.2 876.257,-341.2 880.7569,-331.2 880.7569,-331.2"/>
 </g>
 </g>
 </svg>

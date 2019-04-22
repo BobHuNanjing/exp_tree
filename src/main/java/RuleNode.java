@@ -1,5 +1,8 @@
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class RuleNode extends Node{
     Rule rule;
 
@@ -17,24 +20,26 @@ public class RuleNode extends Node{
     @Override
     @JsonIgnore
     public String getNodeElement() {
-        String ruleNodeElement = "r:" + "head:[";
+        String ruleNodeElement = "head:[";
         for (String headLit : rule.getHead()) {
             ruleNodeElement = ruleNodeElement + headLit + ",";
         }
+        ruleNodeElement = ruleNodeElement.substring(0,ruleNodeElement.length()-1) + "]\n";
 
-        ruleNodeElement += "];positiveBody:[";
+        ruleNodeElement += "positiveBody:[";
         for (String posLit : rule.getPositiveBody()) {
             ruleNodeElement = ruleNodeElement + posLit + ",";
         }
+        ruleNodeElement = ruleNodeElement.substring(0,ruleNodeElement.length()-1) + "]\n";
 
-        ruleNodeElement += "];negativeBody:[";
+        ruleNodeElement += "negativeBody:[";
         for (String negLit : rule.getNegativeBody()) {
             ruleNodeElement = ruleNodeElement + negLit + ",";
         }
 
-        ruleNodeElement +="].";
+        ruleNodeElement = ruleNodeElement.substring(0,ruleNodeElement.length()-1) + "]";
 
         return ruleNodeElement;
-
     }
+
 }
