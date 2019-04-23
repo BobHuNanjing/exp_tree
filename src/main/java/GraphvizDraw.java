@@ -18,6 +18,7 @@ public class GraphvizDraw {
     ArrayList<LiteralToRuleEdge> literalToRuleEdgeArrayList = null;
     MutableGraph g;
     ArrayList<MutableNode> mutableNodes = new ArrayList<>();
+    ExplanationSpace subSpace = new ExplanationSpace();
 
     public GraphvizDraw(ExplanationSpace explanationSpace) {
         this.ruleNodeArrayList = explanationSpace.ruleNodeList;
@@ -28,53 +29,77 @@ public class GraphvizDraw {
     }
 
     /**
-     * 给定一个currentNode，创建一个从此出发的子图
+     * 给定一个currentNode，创建一个从此出发的子图（花琪论文）
+     *
      * @param currentNode
      */
-    public ExplanationSpace subgraphMatch(ExplanationSpace graph, HashSet<String> answerSet,Node currentNode, HashSet<Node> ancestorList, boolean isNeg){
-        ExplanationSpace subSpace = null;
-        if(isIllegal(currentNode, answerSet, ancestorList, isNeg))
-            return subSpace;
+    public ExplanationSpace subgraphMatch(ExplanationSpace graph, HashSet<String> answerSet, Node currentNode, HashSet<Node> ancestorList, boolean isNeg) {
 
-        Node curNode;
+        ExplanationSpace res = new ExplanationSpace();
+        if (isIllegal(currentNode, answerSet, ancestorList, isNeg))
+            return null;
 
-        if(currentNode instanceof LiteralNode){
-            curNode = new LiteralNode(currentNode.getNodeElement());
-        }
-        else if(currentNode instanceof RuleNode){
-            curNode = new RuleNode(((RuleNode) currentNode).getRule());
-        }else
-            curNode = null;
-
-        ancestorList.add(curNode);
-
-        subSpace.addNodeByType(curNode);
+        Node curNode = null;
 
         //当前结点为文字结点
-        if(curNode instanceof LiteralNode){
-            if(isNeg) {
-                return subSpace;
-            }
-            else{
+        if (currentNode instanceof LiteralNode) {
+            curNode = new LiteralNode(currentNode.getNodeElement());
+            subSpace.addNodeByType(curNode);
+            ancestorList.add(curNode);
+            if (isNeg) {
+                return null;
+            } else {
                 for (Edge e : currentNode.getEdgeList()) {
-                    subSpace = subgraphMatch(graph, answerSet, e.endNode, ancestorList, false);
-                    if(subSpace != null) {
-                        Rule rule = ((RuleNode)e.endNode).getRule();
+                    res = subgraphMatch(graph, answerSet, e.endNode, ancestorList, false);
+                    if (res != null) {
+                        Rule rule = ((RuleNode) e.endNode).getRule();
                         RuleNode rNode = new RuleNode(rule);
                         LiteralToRuleEdge literalToRuleEdge = new LiteralToRuleEdge(curNode, rNode);
                         curNode.setEdgeList(literalToRuleEdge);
                     }
                 }
             }
+            ancestorList.remove(curNode);
+        } else {
+            if (currentNode instanceof RuleNode) {
+                for (Edge e : currentNode.getEdgeList()) {
+                    ExplanationSpace tmp1 = null , tmp2 = null;
+                    if (((RuleToLiteralEdge) e).getDependency()) {
+                        tmp1 = subgraphMatch(graph, answerSet, e.endNode, ancestorList, false);
+                    } else {
+                        tmp2 = subgraphMatch(graph, answerSet, e.endNode, ancestorList, true);
+                    }
+                    if(tmp1 == null && tmp2 == null){
+                        res = null;
+                    }else{
+                        res = new ExplanationSpace();
+                    }
+                    if(!(res == null && subSpace.getNodeByAtom(e.endNode.getNodeElement())==null)){
+                    curNode = new RuleNode(((RuleNode) currentNode).getRule());
+                    LiteralNode literalNode = new LiteralNode(e.endNode.getNodeElement());
+                    RuleToLiteralEdge ruleToLiteralEdge = new RuleToLiteralEdge(curNode, literalNode, ((RuleToLiteralEdge) e).getDependency());
+                    curNode.setEdgeList(ruleToLiteralEdge);
+                    subSpace.addNodeByType(literalNode);
+                    subSpace.addNodeByType(curNode);
+                    res = new ExplanationSpace();
+                    }
+                }
+            }
         }
-        else{
-
-        }
-        return subSpace;
+        return res;
     }
 
+
+//    public ExplanationSpace subgraphMatch2(ExplanationSpace graph, HashSet<String> answerSet,Node currentNode, HashSet<Node> ancestorList, boolean isNeg){
+//        ExplanationSpace subSpace = new ExplanationSpace();
+//        //当前待解释节点必为literal，且在顶部
+//        LiteralNode subSpaceLiteralNode = new LiteralNode(currentNode.getNodeElement());
+//        subSpace.addNodeByType();
+//    }
+
+
     private boolean isIllegal(Node currentNode, HashSet<String> answerSet, HashSet<Node> ancestorList, boolean isNeg) {
-        if ((answerSet.contains(currentNode.getNodeElement()) && isNeg) || (!answerSet.contains(currentNode.getNodeElement()) && !isNeg) || (ancestorList.contains(currentNode)))
+        if ((answerSet.contains(currentNode.getNodeElement()) && isNeg) || (!answerSet.contains(currentNode.getNodeElement()) && !isNeg && currentNode instanceof LiteralNode) || (ancestorList.contains(currentNode)))
             return true;
         else
             return false;
@@ -113,9 +138,9 @@ public class GraphvizDraw {
 
     }*/
 
-    public void displayGraph(){
+    public void displayGraph() {
         try {
-            Graphviz.fromGraph(g).scale(0.5).render(Format.SVG).toFile(new File("example/ex1.svg"));
+            Graphviz.fromGraph(g).scale(0.5).render(Format.SVG).toFile(new File("example/ex12.svg"));
         } catch (IOException e) {
             e.printStackTrace();
         }

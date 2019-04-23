@@ -9,7 +9,7 @@ public class LiteralToRuleEdge extends Edge{
     @Override
     @JsonIgnore
     public String getEdgeElement() {
-        String edgeElement = "edge type:" + "Literal-To-Rule;";
+        String edgeElement = "";
         return edgeElement;
     }
 }

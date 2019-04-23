@@ -9,7 +9,7 @@ public class ExplanationSpace {
     ArrayList<LiteralToRuleEdge> literalToRuleEdgeList = new ArrayList<>();
     ArrayList<RuleToLiteralEdge> ruleToLiteralEdgeList = new ArrayList<>();
 
-    public ExplanationSpace() {
+    public void initExplanationSpace() {
         RuleLoader ruleLoader = new RuleLoader("rules.txt");
         ruleLoader.loadRulesIntoList();
         ArrayList<Rule> rList = ruleLoader.getRules();
@@ -134,5 +134,14 @@ public class ExplanationSpace {
         else if(node instanceof RuleNode){
             ruleNodeList.add((RuleNode) node);
         }
+    }
+
+    public LiteralNode getNodeByAtom(String atom) {
+        for (LiteralNode lit: literalNodeList) {
+            //System.out.println(lit.getAtom()+","+atom);
+            if(lit.getAtom().equals(atom))
+                return lit;
+        }
+        return null;
     }
 }
