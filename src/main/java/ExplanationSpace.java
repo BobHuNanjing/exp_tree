@@ -133,6 +133,7 @@ public class ExplanationSpace {
 
         else if(node instanceof RuleNode){
             ruleNodeList.add((RuleNode) node);
+            System.out.println(((RuleNode) node).getEdgeList().get(0));
         }
     }
 
